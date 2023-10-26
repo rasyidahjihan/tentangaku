@@ -1,0 +1,110 @@
+/* CSS untuk tata letak */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eff1f2;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px; /* Adjusted padding to accommodate footer */
+}
+
+.content {
+  padding: 20px;
+  width: 80%; /* Adjusted width */
+  max-width: 1200px; /* Added max-width */
+  margin-top: 20px; /* Adjusted margin */
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-content {
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.services-text {
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-1, .box-2, .box-3 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.box-1 span, .box-2 span, .box-3 span {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box-1 a, .box-2 a, .box-3 a {
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.box-1 a:hover, .box-2 a:hover, .box-3 a:hover {
+  background-color: #0056b3;
+}
